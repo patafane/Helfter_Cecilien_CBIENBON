@@ -11922,4 +11922,18 @@ header .filter .rightside button i {
   border: solid 3px rgb(53, 54, 54);
 }
 
+.sec2 {
+  color: white;
+  background-color: rgb(11, 11, 9);
+}
+.sec2 p {
+  color: rgb(161, 161, 160);
+}
+.sec2 span {
+  color: rgb(205, 164, 93);
+}
+.sec2 .col {
+  background-color: rgb(26, 24, 20);
+}
+
 /*# sourceMappingURL=style.css.map */
