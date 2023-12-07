@@ -11904,4 +11904,22 @@ header .filter .rightside button i {
   background-color: rgb(205, 164, 93);
 }
 
+.sec1 {
+  height: 75vh;
+  background-image: url("../img/about-bg.jpg");
+  background-position: top;
+  background-size: cover;
+}
+.sec1 .filter {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.sec1 .filter ul {
+  list-style: url("../img/circle-check-regular.svg");
+}
+.sec1 .rightpart img {
+  border: solid 3px rgb(53, 54, 54);
+}
+
 /*# sourceMappingURL=style.css.map */
