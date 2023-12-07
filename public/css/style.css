@@ -11855,5 +11855,23 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+nav {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+nav .textprim1 {
+  color: rgb(205, 164, 93) !important;
+}
+nav a:hover {
+  color: rgb(205, 164, 93) !important;
+}
+nav .nohover:hover {
+  color: white !important;
+}
+nav button {
+  border: solid 2px rgb(205, 164, 93) !important;
+}
+nav button:hover {
+  background-color: rgb(205, 164, 93) !important;
+}
 
 /*# sourceMappingURL=style.css.map */
