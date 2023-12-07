@@ -11886,5 +11886,22 @@ header .filter {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
 }
+header .filter .textprim1 {
+  color: rgb(205, 164, 93);
+}
+header .filter .leftside button {
+  border: solid 2px rgb(205, 164, 93);
+  background-color: transparent;
+}
+header .filter .leftside button:hover {
+  background-color: rgb(205, 164, 93);
+}
+header .filter .rightside button {
+  background-color: rgba(205, 164, 93, 0.5);
+  border: none;
+}
+header .filter .rightside button i {
+  background-color: rgb(205, 164, 93);
+}
 
 /*# sourceMappingURL=style.css.map */
