@@ -11977,4 +11977,32 @@ header .filter .rightside button i {
   bottom: -15%;
 }
 
+.sec5 {
+  background-color: rgb(11, 11, 9);
+}
+.sec5 span {
+  color: rgb(205, 164, 93);
+}
+.sec5 input, .sec5 textarea {
+  background-color: rgb(13, 11, 9);
+  border: solid 1px rgb(86, 80, 66);
+  color: rgb(158, 150, 133);
+  padding-left: 2%;
+}
+.sec5 ::placeholder {
+  color: rgb(158, 150, 133);
+}
+.sec5 input:focus, .sec5 textarea:focus {
+  border: solid 1px rgb(205, 164, 93);
+  outline: transparent;
+}
+.sec5 button {
+  color: white;
+  background-color: rgb(205, 164, 93);
+  border: none;
+}
+.sec5 button:hover {
+  background-color: rgb(217, 183, 123);
+}
+
 /*# sourceMappingURL=style.css.map */
