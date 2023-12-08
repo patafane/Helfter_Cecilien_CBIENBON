@@ -11905,7 +11905,6 @@ header .filter .rightside button i {
 }
 
 .sec1 {
-  height: 75vh;
   background-image: url("../img/about-bg.jpg");
   background-position: top;
   background-size: cover;
@@ -11939,8 +11938,21 @@ header .filter .rightside button i {
 .sec3 {
   background-color: rgb(26, 24, 20);
 }
+.sec3 button {
+  color: white;
+}
+.sec3 button:hover {
+  color: rgb(205, 164, 93);
+}
+.sec3 .active {
+  color: rgb(205, 164, 93) !important;
+}
 .sec3 span {
   color: rgb(205, 164, 93);
+}
+.sec3 img {
+  border-radius: 50%;
+  border: solid 6px rgb(72, 70, 66);
 }
 
 /*# sourceMappingURL=style.css.map */
