@@ -12024,4 +12024,32 @@ header .filter .rightside button i {
   transition: all 0.5s;
 }
 
+.sec7 {
+  background-color: rgb(11, 11, 9);
+}
+.sec7 span {
+  color: rgb(205, 164, 93);
+}
+.sec7 .filter {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  color: transparent;
+}
+.sec7 .info {
+  height: 100%;
+  width: 100%;
+}
+.sec7 .info i {
+  font-size: 150%;
+}
+.sec7 .info i:hover {
+  color: rgb(205, 164, 93);
+}
+.sec7 .col:hover .filter {
+  background-image: linear-gradient(to top, black, transparent);
+  color: white;
+  transition: all 1.5s;
+}
+
 /*# sourceMappingURL=style.css.map */
