@@ -12090,4 +12090,21 @@ header .filter .rightside button i {
   background-color: rgb(217, 183, 123);
 }
 
+footer .bigfoot {
+  background-color: rgb(13, 11, 9);
+  border-top: solid 2px rgb(205, 164, 93);
+  border-bottom: solid 2px rgb(205, 164, 93);
+}
+footer .bigfoot i {
+  background-color: rgb(39, 37, 31);
+  padding: 4%;
+  border-radius: 50%;
+}
+footer ul {
+  list-style: url(../img/chevron.svg);
+}
+footer .littlefoot {
+  background-color: black;
+}
+
 /*# sourceMappingURL=style.css.map */
