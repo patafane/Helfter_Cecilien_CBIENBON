@@ -6084,14 +6084,14 @@ textarea.form-control-lg {
 .carousel-indicators [data-bs-target] {
   box-sizing: content-box;
   flex: 0 1 auto;
-  width: 30px;
-  height: 3px;
+  width: 15px;
+  height: 15px;
   padding: 0;
   margin-right: 3px;
   margin-left: 3px;
   text-indent: -999px;
   cursor: pointer;
-  background-color: #fff;
+  background-color: rgb(205, 164, 93);
   background-clip: padding-box;
   border: 0;
   border-top: 10px solid transparent;
@@ -11953,6 +11953,28 @@ header .filter .rightside button i {
 .sec3 img {
   border-radius: 50%;
   border: solid 6px rgb(72, 70, 66);
+}
+
+.sec4 {
+  background-image: url("../img/events-bg.jpg");
+  background-position: center;
+}
+.sec4 .filter {
+  background-color: rgba(0, 0, 0, 0.85);
+  width: 100%;
+  height: 100%;
+}
+.sec4 h3, .sec4 .h3 {
+  text-decoration: underline 3px rgb(205, 164, 93);
+}
+.sec4 span {
+  color: rgb(205, 164, 93);
+}
+.sec4 .bg-perso {
+  background-color: rgb(205, 164, 93);
+}
+.sec4 .carousel-indicators {
+  bottom: -15%;
 }
 
 /*# sourceMappingURL=style.css.map */
