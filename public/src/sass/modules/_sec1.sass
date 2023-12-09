@@ -10,10 +10,32 @@
         ul
             list-style: url('../img/circle-check-regular.svg')
     .rightpart
-        .test
+        .imgcont
             border: solid 3px rgba(53,54,54,255)
             overflow: hidden
-        .test img
+            .carre1,.carre2
+                width: 20%
+                height: 20%
+                z-index: 1
+            .carre1
+                top: 4%
+                left: 4%
+                border-left: solid 4px $colprim
+                border-top: solid 4px $colprim
+            .carre2
+                bottom: 4%
+                right: 4%
+                border-right: solid 4px $colprim
+                border-bottom: solid 4px $colprim
+        .imgcont img
             transition: all 1s
-        .test:hover img
+        .imgcont:hover img
             transform: scale(1.1)
+        .imgcont .carre1, .imgcont .carre2
+            transition: all 1s
+        .imgcont:hover .carre1
+            top: 2%
+            left: 2%
+        .imgcont:hover .carre2
+            bottom: 2%
+            right: 2%
