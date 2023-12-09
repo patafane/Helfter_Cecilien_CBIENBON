@@ -11964,8 +11964,15 @@ header .filter .rightside button:hover i {
 .sec1 .filter ul {
   list-style: url("../img/circle-check-regular.svg");
 }
-.sec1 .rightpart img {
+.sec1 .rightpart .test {
   border: solid 3px rgb(53, 54, 54);
+  overflow: hidden;
+}
+.sec1 .rightpart .test img {
+  transition: all 1s;
+}
+.sec1 .rightpart .test:hover img {
+  transform: scale(1.1);
 }
 
 .sec2 {
