@@ -11884,9 +11884,10 @@ nav button.book:hover {
 header {
   height: 100vh;
   background-image: url("../img/hero-bg.jpg");
-  background-size: auto;
+  background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 header .filter {
   width: 100%;
