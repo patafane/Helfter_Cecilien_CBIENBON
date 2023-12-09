@@ -11855,6 +11855,10 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+  margin: 0;
+}
+
 nav {
   background-color: rgba(0, 0, 0, 0.9);
 }
@@ -11906,7 +11910,6 @@ header .filter .leftside button:hover {
   background-color: rgb(205, 164, 93);
 }
 header .filter .leftside h1, header .filter .leftside .h1 {
-  font-size: 400%;
   font-weight: 900;
 }
 header .filter .rightside button {
@@ -12049,6 +12052,8 @@ header .filter .rightside button:hover i {
 .sec4 {
   background-image: url("../img/events-bg.jpg");
   background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
 }
 .sec4 .filter {
   background-color: rgba(0, 0, 0, 0.85);
