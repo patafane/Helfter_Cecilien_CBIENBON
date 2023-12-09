@@ -12016,6 +12016,15 @@ header .filter .rightside button:hover i {
 .sec2 .col {
   background-color: rgb(26, 24, 20);
 }
+.sec2 .col:hover {
+  background-color: rgb(205, 164, 93);
+}
+.sec2 .col:hover p {
+  color: white;
+}
+.sec2 .col:hover span {
+  color: white;
+}
 
 .sec3 {
   background-color: rgb(26, 24, 20);
@@ -12057,6 +12066,11 @@ header .filter .rightside button:hover i {
 }
 .sec4 .carousel-indicators {
   bottom: -15%;
+}
+@media (max-width: 992px) {
+  .sec4 .carousel-indicators {
+    bottom: -8%;
+  }
 }
 
 .sec5 {
