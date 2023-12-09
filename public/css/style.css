@@ -12100,8 +12100,39 @@ footer .bigfoot i {
   padding: 4%;
   border-radius: 50%;
 }
+footer .bigfoot i:hover {
+  background-color: rgb(205, 164, 93);
+}
+footer .newsletter {
+  width: 100%;
+  position: relative;
+}
+footer .newsletter input {
+  width: 100%;
+  background-color: rgb(39, 37, 31);
+  border: solid 1px rgb(86, 80, 66);
+  color: rgb(158, 150, 133);
+}
+footer .newsletter input:focus {
+  border: solid 1px rgb(205, 164, 93);
+  outline: transparent;
+}
+footer .newsletter button {
+  height: 100%;
+  position: absolute;
+  right: 0;
+  background-color: rgb(205, 164, 93);
+  border: none;
+}
+footer .newsletter button:hover {
+  background-color: rgb(217, 183, 123);
+}
 footer ul {
   list-style: url(../img/chevron.svg);
+  line-height: 250%;
+}
+footer ul li:hover {
+  color: rgb(205, 164, 93);
 }
 footer .littlefoot {
   background-color: black;
