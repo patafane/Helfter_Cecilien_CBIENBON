@@ -12048,6 +12048,13 @@ header .filter .rightside button:hover i {
   border-radius: 50%;
   border: solid 6px rgb(72, 70, 66);
 }
+.sec3 hr {
+  color: white;
+}
+.sec3 hr.dotted {
+  color: transparent;
+  border-bottom: dotted 3px white;
+}
 
 .sec4 {
   background-image: url("../img/events-bg.jpg");
