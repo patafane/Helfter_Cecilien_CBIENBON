@@ -7,9 +7,12 @@
         height: 100%
         top: 0
         color: transparent
+        overflow: hidden
     .info
         height: 100%
         width: 100%
+        transform: translateY(100px)
+        transition: all 1s
         i
             font-size: 150%
         i:hover
@@ -17,4 +20,5 @@
     .col:hover .filter
         background-image: linear-gradient(to top, black,transparent)
         color: white
-        transition: all 1.5s
+    .col:hover .info
+        transform: translateY(0px)
