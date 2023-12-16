@@ -12122,13 +12122,13 @@ header .filter .rightside button:hover i {
 .sec6 img {
   border: solid 2px rgb(69, 64, 53);
 }
-.sec6 .col {
+.sec6 .anim {
   overflow: hidden;
 }
-.sec6 .col:hover img {
+.sec6 .anim:hover img {
   transform: scale(1.1);
 }
-.sec6 .col img {
+.sec6 .anim img {
   transition: all 0.5s;
 }
 
@@ -12157,11 +12157,11 @@ header .filter .rightside button:hover i {
 .sec7 .info i:hover {
   color: rgb(205, 164, 93);
 }
-.sec7 .col:hover .filter {
+.sec7 .anim:hover .filter {
   background-image: linear-gradient(to top, black, transparent);
   color: white;
 }
-.sec7 .col:hover .info {
+.sec7 .anim:hover .info {
   transform: translateY(0px);
 }
 
