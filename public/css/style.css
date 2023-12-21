@@ -12142,8 +12142,10 @@ header .filter .rightside button:hover i {
   width: 100%;
   height: 100%;
   top: 0;
-  color: transparent;
+  background-image: linear-gradient(to top, black, transparent);
   overflow: hidden;
+  opacity: 0;
+  transition: all 0.3s;
 }
 .sec7 .info {
   height: 100%;
@@ -12158,8 +12160,8 @@ header .filter .rightside button:hover i {
   color: rgb(205, 164, 93);
 }
 .sec7 .anim:hover .filter {
-  background-image: linear-gradient(to top, black, transparent);
   color: white;
+  opacity: 1;
 }
 .sec7 .anim:hover .info {
   transform: translateY(0px);
